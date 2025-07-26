@@ -48,19 +48,19 @@ pip install requests beautifulsoup4 scikit-learn transformers torch
 ```bash
 python main.py
 ```
-Example Questions
-"Какие стипендии доступны для магистрантов?"
-"Какие компании являются партнерами программы по AI?"
-"Какие существуют варианты выпускной работы?"
-"Какие направления подготовки есть в программе AI?"
+Example Questions:
+* "Какие стипендии доступны для магистрантов?"
+* "Какие компании являются партнерами программы по AI?"
+* "Какие существуют варианты выпускной работы?"
+* "Какие направления подготовки есть в программе AI?"
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 ```
 ├── main.py           # Main RAG Q&A system
 ├── requirements.txt    # Python dependencies
 └── README.md          # This file
 ```
-🧪 How It Works
+## 🧪 How It Works
 
 🔧 Data Processing: Program information is parsed and preprocessed into searchable chunks
 
@@ -70,30 +70,34 @@ Example Questions
 
 💬 Response: Generated answers are displayed to the user in real-time
 
-📊 Models Used
+## 📊 Models Used
 Retrieval: TF-IDF vectorization with cosine similarity
+
 Generation: google/mt5-small transformer model (multilingual, supports Russian)
 
-⚠️ Important Notes
+## ⚠️ Important Notes
 First Run: Model download may take several minutes on first execution
 System Requirements: At least 4GB RAM recommended (8GB+ for better performance)
 GPU Support: Automatically utilizes GPU if CUDA is available
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📄 License
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/AmazingFeature)
+3. Commit your changes (git commit -m 'Add some AmazingFeature')
+4. Push to the branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 Thanks to ITMO University for providing detailed program information
+
 Built with 🤗 Hugging Face transformers library
+
 Uses scikit-learn for efficient text processing
 
-📞 Support
+## 📞 Support
 For questions and support, please open an issue in the GitHub repository.
