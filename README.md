@@ -32,8 +32,8 @@ This repository contains a question-answering system that leverages RAG architec
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/itmo-rag-qa.git
-cd itmo-rag-qa
+git clone https://github.com/DefinitelyNik/itmo_qa.git
+cd itmo-qa
 ```
 
 Install required packages:
